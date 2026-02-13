@@ -42,6 +42,8 @@
     background: orange;
     border-radius: 10px;
     overflow: hidden;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 
 .desc {
