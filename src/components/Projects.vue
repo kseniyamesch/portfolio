@@ -1,6 +1,6 @@
 <template>
     <section id="projects" class="px-6 py-4">
-        <h2>
+        <h2 class="hidden">
             Projects
         </h2>
         <ul class="flex gap-2 justify-center">
@@ -8,15 +8,49 @@
                 <div class="card">
                     <img src="../assets/barbershop.png" alt="Barbershop project" class="block" width="300px"
                         height="400px">
-                    <div class="desc px-6 py-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aut!</div>
+                    <div class="desc px-6 py-6 text-white">
+                        <p>
+                            A simple Barber Shop landing page built with HTML, CSS, and minimal JavaScript.
+
+                            Responsive layout – adapts to desktop and mobile screens. Basic animations – smooth
+                            transitions
+                            for modal and UI elements. Minimalistic and clean design for demonstration purposes.
+                        </p>
+                        <ul class="flex gap-3 mt-auto! mx-auto!">
+                            <li><a href="https://github.com/kseniyamesch/barber-shop" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-accent inline-block px-6 py-2 rounded-md">GitHub</a></li>
+                            <li><a href="https://kseniyamesch.github.io/barber-shop/" target="_blank"
+                                    rel="noopener noreferrer" class="bg-accent inline-block px-6 py-2 rounded-md">Life
+                                    page</a></li>
+                        </ul>
+                    </div>
+
                 </div>
-                <ul class="flex gap-3">
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">Life page</a></li>
-                </ul>
+
             </li>
             <li>
-                <div class="card"></div>
+                <div class="card">
+                    <img src="../assets/icecream.png" alt="Icecream project" class="block" width="300px" height="400px">
+                    <div class="desc px-6 py-6 text-white">
+                        <p>
+                            A team-based Ice Cream landing page built with HTML, CSS, and minimal JavaScript.
+
+                            Responsive design for desktop and mobile, smooth UI animations, and a clean, minimalistic
+                            layout. Developed collaboratively as part of a team project.
+                        </p>
+                        <ul class="flex gap-3 mt-auto! mx-auto!">
+                            <li><a href="https://github.com/hayhelv/project-ice-cream" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-accent inline-block px-6 py-2 rounded-md">GitHub</a></li>
+                            <li><a href="https://hayhelv.github.io/project-ice-cream/" target="_blank"
+                                    rel="noopener noreferrer" class="bg-accent inline-block px-6 py-2 rounded-md">Life
+                                    page</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </li>
             <li>
                 <div class="card"></div>
@@ -50,8 +84,17 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
 
     opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    transform: translateY(-100%);
+
+    transition: opacity 500ms ease, transform 500ms ease;
 }
 
 .card:hover::before {
@@ -66,5 +109,7 @@
 
 .card:hover .desc {
     opacity: 1;
+    transform: translateY(0);
 }
+
 </style>
