@@ -3,7 +3,7 @@
         <h2 class="hidden">
             Projects
         </h2>
-        <ul class="flex gap-2 justify-center">
+        <ul class="flex gap-3 justify-center">
             <li>
                 <div class="card">
                     <img src="../assets/barbershop.png" alt="Barbershop project" class="block" width="300px"
@@ -25,7 +25,6 @@
                                     page</a></li>
                         </ul>
                     </div>
-
                 </div>
 
             </li>
@@ -48,12 +47,31 @@
                                     page</a></li>
                         </ul>
                     </div>
-
                 </div>
 
             </li>
             <li>
-                <div class="card"></div>
+                <div class="card">
+
+
+                    <img src="../assets/Filmoteka.png" alt="Filmoteka project" class="block" width="300px"
+                        height="400px">
+                    <div class="desc px-6 py-6 text-white">
+                        <p>
+                            A team-based movie library web application built with HTML, SCSS, and vanilla JavaScript.
+
+Adaptive layout for desktop and mobile, AJAX with external APIs, theme switcher, localStorage, pagination, and search filter. Developed collaboratively as part of a 9-person team, focusing on frontend implementation and feature development.
+                        </p>
+                        <ul class="flex gap-3 mt-auto! mx-auto!">
+                            <li><a href="https://github.com/skochdev/team10-js-project" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-accent inline-block px-6 py-2 rounded-md">GitHub</a></li>
+                            <li><a href="https://skochdev.github.io/team10-js-project/#" target="_blank"
+                                    rel="noopener noreferrer" class="bg-accent inline-block px-6 py-2 rounded-md">Life
+                                    page</a></li>
+                        </ul>
+                    </div>
+                </div>
             </li>
             <li>
                 <div class="card"></div>
@@ -111,5 +129,4 @@
     opacity: 1;
     transform: translateY(0);
 }
-
 </style>
