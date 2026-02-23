@@ -1,6 +1,6 @@
 <template>
-    <footer class="px-6 py-3 bg-primaryText text-white">
-        My footer
+    <footer class="px-6 py-3 bg-primaryText text-white text-center">
+       &copy; 2026 Kseniia Malyshenko
     </footer>
 </template>
 
