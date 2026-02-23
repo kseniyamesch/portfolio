@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="px-8 py-8 bg-[rgba(184,156,125,0.2)]">
+  <section id="about" class=" bg-[rgba(184,156,125,0.2)]">
     <h2 class="text-primaryText bold text-2xl uppercase mb-6!">About me</h2>
     <p class="italic">I am a junior developer with a background in front-end and growing experience in .NET development.
       I enjoy building clear and user-friendly applications and learning how things work under the hood.

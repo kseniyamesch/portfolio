@@ -1,9 +1,9 @@
 <template>
-    <section id="projects" class="px-6 py-10">
+    <section id="projects" class="projects-section">
         <h2 class="hidden">
             Projects
         </h2>
-        <ul class="flex gap-3 justify-center">
+        <ul class="grid gap-5 justify-center [grid-template-columns:repeat(auto-fit,300px)]">
             <li>
                 <div class="card">
                     <img src="../assets/barbershop.png" alt="Barbershop project" class="block" width="300px"
@@ -107,6 +107,7 @@
 </script>
 
 <style scoped>
+
 .card {
     position: relative;
     width: 300px;

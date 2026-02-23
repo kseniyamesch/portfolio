@@ -1,6 +1,5 @@
 @import './base.css';
-@import "tailwindcss";
-
+@import 'tailwindcss';
 
 @theme {
   --color-bg: #f7f3ef;
@@ -43,6 +42,22 @@
   } */
 }
 
+section {
+  padding: 2rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    padding: 4rem 3rem;
+  }
+}
+
 .wrapper {
   background-color: var(--color-bg);
   width: 100vw !important;
@@ -50,8 +65,7 @@
 }
 
 .nav-link {
-  @apply 
-         hover:text-accent focus:text-accent hover:font-bold focus:font-bold
+  @apply hover:text-accent focus:text-accent hover:font-bold focus:font-bold
          hover:scale-120 focus:scale-120 hover:drop-shadow-md focus:drop-shadow-md
          transition-all duration-300;
 }

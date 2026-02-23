@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section id="home" class="px-6 py-4 flex items-center gap-8">
+  <section id="home" class="flex flex-wrap items-center gap-8">
     <img src="../assets/profile.jpg" alt="Kseniia Malyshenko profile picture" width="200px" class="rounded-[50%]">
     <div>
       <h1 class="uppercase text-4xl text-primaryText font-bold mb-5!">Kseniia Malyshenko</h1>

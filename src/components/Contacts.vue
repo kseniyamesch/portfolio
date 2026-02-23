@@ -1,6 +1,6 @@
 <template>
-    <section id="contacts" class="px-6 py-8 bg-[rgba(184,156,125,0.2)]">
-        <div class="w-[500px] bg-accent text-white mx-auto! px-6 py-4 rounded">
+    <section id="contacts" class="bg-[rgba(184,156,125,0.2)]">
+        <div class="w-[350px] bg-accent text-white mx-auto! px-6 py-4 rounded">
             <h3 class="uppercase bold text-2xl mb-4!">Contact me:</h3>
             <ul>
                 <li><a href="tel:+32476029813" class="flex items-center gap-2 contact-link"><svg
