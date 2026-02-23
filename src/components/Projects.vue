@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="px-6 py-4">
+    <section id="projects" class="px-6 py-10">
         <h2 class="hidden">
             Projects
         </h2>
@@ -52,15 +52,15 @@
             </li>
             <li>
                 <div class="card">
-
-
                     <img src="../assets/Filmoteka.png" alt="Filmoteka project" class="block" width="300px"
                         height="400px">
                     <div class="desc px-6 py-6 text-white">
                         <p>
                             A team-based movie library web application built with HTML, SCSS, and vanilla JavaScript.
 
-Adaptive layout for desktop and mobile, AJAX with external APIs, theme switcher, localStorage, pagination, and search filter. Developed collaboratively as part of a 9-person team, focusing on frontend implementation and feature development.
+                            Adaptive layout for desktop and mobile, AJAX with external APIs, theme switcher,
+                            localStorage, pagination, and search filter. Developed collaboratively as part of a 9-person
+                            team, focusing on frontend implementation and feature development.
                         </p>
                         <ul class="flex gap-3 mt-auto! mx-auto!">
                             <li><a href="https://github.com/skochdev/team10-js-project" target="_blank"
@@ -74,7 +74,27 @@ Adaptive layout for desktop and mobile, AJAX with external APIs, theme switcher,
                 </div>
             </li>
             <li>
-                <div class="card"></div>
+                <div class="card">
+                    <img src="../assets/Finance-Ledger.png" alt="Finance Ledger project" class="block" width="300px"
+                        height="400px">
+                    <div class="desc px-6 py-6 text-white">
+                        <p>
+                            An individual finance ledger web application built with HTML and Sass.
+
+                            Responsive layout for desktop and mobile, minimal JavaScript for interactivity, clean and
+                            user-friendly design. Focused on semantic markup, modular styles, and adaptive components
+                            for an optimal user experience.
+                        </p>
+                        <ul class="flex gap-3 mt-auto! mx-auto!">
+                            <li><a href="https://github.com/kseniyamesch/finance-ledger" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-accent inline-block px-6 py-2 rounded-md">GitHub</a></li>
+                            <li><a href="https://kseniyamesch.github.io/finance-ledger/" target="_blank"
+                                    rel="noopener noreferrer" class="bg-accent inline-block px-6 py-2 rounded-md">Life
+                                    page</a></li>
+                        </ul>
+                    </div>
+                </div>
             </li>
 
         </ul>
@@ -112,7 +132,7 @@ Adaptive layout for desktop and mobile, AJAX with external APIs, theme switcher,
 
     transform: translateY(-100%);
 
-    transition: opacity 500ms ease, transform 500ms ease;
+    transition: opacity 1000ms ease, transform 500ms ease;
 }
 
 .card:hover::before {
