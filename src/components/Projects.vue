@@ -109,45 +109,50 @@
 <style scoped>
 
 .card {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    background: orange;
     border-radius: 10px;
+
     overflow: hidden;
 
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 
 .desc {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    opacity: 0;
-
     display: flex;
     flex-direction: column;
 
-    transform: translateY(-100%);
+    height: 350px;
 
-    transition: opacity 1000ms ease, transform 500ms ease;
+    background-color: rgba(56, 39, 23, 0.8);
 }
 
-.card:hover::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(56, 39, 23, 0.9);
+@media screen and (min-width: 1024px) {
+    .desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        transform: translateY(-100%);
+
+        transition: transform 500ms ease;
+
+        background-color: rgba(56, 39, 23, 0.9);
+
+    }
+
+    .card {
+        position: relative;
+        overflow: hidden;
+
+        width: 300px;
+        height: 400px;
+    }
+
+    .card:hover .desc,
+    .card:focus .desc {
+        transform: translateY(0);
+    }
 }
 
-.card:hover .desc {
-    opacity: 1;
-    transform: translateY(0);
-}
 </style>
