@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import About from './components/About.vue';
-import Header from './components/Header.vue';
-import Home from './components/Home.vue';
-import Projects from './components/Projects.vue';
-import Contacts from './components/Contacts.vue';
-import Footer from './components/Footer.vue';
+  
+import About from './components/About.vue'
+import Header from './components/Header.vue'
+import Home from './components/Home.vue'
+import Projects from './components/Projects.vue'
+import Contacts from './components/Contacts.vue'
+import Footer from './components/Footer.vue'
+
 </script>
 
 <template>
